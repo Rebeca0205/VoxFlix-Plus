@@ -51,7 +51,7 @@ Error generating stack: `+e.message+`
         font-family: ${e=>e.theme.fonts.base};
         color: rgb(20, 117, 117);
         outline: none; 
-        font-size: clamp(0.5rem, 2vw, 1.4rem);
+        font-size: clamp(0.8rem, 2vw, 1.3rem);
         font-weight: 500;
         cursor: pointer;
 
@@ -75,7 +75,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     height: 4%;
     cursor: pointer;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 10%;
         height: 10%;
     }
@@ -130,7 +130,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     background-position-y: 25%;
     background-position-x: 78%;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 20px 0;
         background-position-y: 50%;
     }
@@ -148,7 +148,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     margin-right: 40px;
     padding: 50px 20px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         margin-right: 10px;
         padding: 10px 20px;
     }
@@ -170,14 +170,14 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     text-align: center;
     color: ${e=>e.theme.colors.white};
 `,Ff=N.button`
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 10px;
     }
 `,If=N.button`
     border-radius: 50px;
     padding: 10px;
     outline: none; 
-    font-size: clamp(0.5rem, 2vw, 1.3rem);
+    font-size: clamp(0.8rem, 2vw, 1.3rem);
     font-weight: 500;
     width: 80%;
 `,Lf=()=>{let e=Ti(),t=(0,M.useRef)(null);return(0,L.jsxs)(L.Fragment,{children:[(0,L.jsx)(jf,{children:(0,L.jsxs)(Mf,{children:[(0,L.jsx)(Pf,{children:`BIENVENIDO A VOXFLIX! TU SERVICIO DE STREAMING FAVORITO! CONFIENOS SU ENTRETENIMIENTO!`}),(0,L.jsxs)(Nf,{children:[(0,L.jsx)(Ff,{onClick:()=>t.current.scrollIntoView({behavior:`smooth`}),children:`VER PELICULAS`}),(0,L.jsx)(If,{onClick:()=>e(`/searchMovie`),children:`¿No encontraste lo que buscabas? Pues buscalo aquí!`})]})]})}),(0,L.jsxs)(`section`,{ref:t,children:[(0,L.jsx)(Af,{genre:`Abenteuer`}),(0,L.jsx)(Af,{genre:`Horror`}),(0,L.jsx)(Af,{genre:`Drama`})]})]})},Rf=N.section`
@@ -189,20 +189,20 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     padding: 30px;
     margin: 40px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         flex-direction: column;
     }
 `,zf=N.img`
     width: 30%;
     border-radius: 6px;
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 100%;
     }
 `,Bf=N.div`
     text-align: center;
     padding: 70px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 20px;
     }
 `,Vf=()=>{let{id:e}=Di(),t=Ti(),[n,r]=(0,M.useState)(null),[i,a]=(0,M.useState)(!1),[o,s]=(0,M.useState)(null);return(0,M.useEffect)(()=>{(async()=>{try{a(!0);let t=await yf.get(`https://api.themoviedb.org/3/movie/${e}?api_key=ce08c34a8882594ec98348efc352064c&language=es-MX`);r(t.data),a(!1)}catch{s(`Failed to get movie details`),a(!1)}})()},[e]),(0,L.jsxs)(L.Fragment,{children:[i&&(0,L.jsx)(`p`,{style:{color:`white`},children:`Cargando pelicula...`}),o&&(0,L.jsx)(`p`,{style:{color:`red`},children:o}),!i&&!o&&!n&&(0,L.jsx)(`p`,{style:{color:`aqua`},children:`No se encontro la pelicula`}),!i&&!o&&n&&(0,L.jsxs)(Rf,{children:[(0,L.jsx)(zf,{src:`https://image.tmdb.org/t/p/original${n.poster_path}`}),(0,L.jsxs)(Bf,{children:[(0,L.jsx)(`h1`,{style:{fontSize:`clamp(2rem, 2vw, 3.5rem)`},children:n.title}),(0,L.jsx)(`p`,{children:n.tagline}),(0,L.jsx)(`p`,{children:n.overview}),(0,L.jsx)(`button`,{style:{fontSize:`clamp(1rem, 2vw, 1.4rem)`},onClick:()=>t(`/`),children:`Volver al Menu`})]})]})]})},Hf=Rc(`movies/fetchMoviesForSearch`,async e=>(await yf.get(`https://api.themoviedb.org/3/search/movie?api_key=ce08c34a8882594ec98348efc352064c&query=${encodeURIComponent(e)}&language=es-MX`)).data.results.slice(0,10)),Uf=Wc({name:`searchByName`,initialState:{moviesResults:[],loading:!1,error:null},reducers:{resetResults:e=>{e.moviesResults=[],e.loading=!1,e.error=``}},extraReducers:e=>{e.addCase(Hf.pending,e=>{e.loading=!0,e.error=null}).addCase(Hf.fulfilled,(e,t)=>{e.loading=!1,e.moviesResults=t.payload,e.error=null}).addCase(Hf.rejected,e=>{e.loading=!1,e.error=`Failed to fetch movies`})}}),{resetResults:Wf}=Uf.actions,{reducer:Gf}=Uf,Kf=`data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%2300ffff'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20class='feather%20feather-refresh-ccw'%3e%3cpolyline%20points='1%204%201%2010%207%2010'%3e%3c/polyline%3e%3cpolyline%20points='23%2020%2023%2014%2017%2014'%3e%3c/polyline%3e%3cpath%20d='M20.49%209A9%209%200%200%200%205.64%205.64L1%2010m22%204l-4.64%204.36A9%209%200%200%201%203.51%2015'%3e%3c/path%3e%3c/svg%3e`,qf=N.div`
@@ -228,7 +228,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
         color: rgba(4, 25, 130, 0.5);
     }
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 40%;
     }
 `,Yf=N.button`
@@ -238,7 +238,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     font-weight: 500;
     width: 10%;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 15%;
     }
 `,Xf=N.i`
@@ -249,7 +249,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     gap: 30px;
     margin: 30px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -260,7 +260,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     display: flex;
     flex-direction: column;
     
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         margin: 0 10px;
     }
 `,tp=N.i`
@@ -269,7 +269,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     width: 2.5%;
     cursor: pointer;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 5%;
         margin-left: 20px;
         margin-bottom: 10px;
