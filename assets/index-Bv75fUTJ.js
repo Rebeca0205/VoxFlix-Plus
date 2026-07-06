@@ -256,7 +256,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     @media screen and (max-width: 450px) {
         grid-template-columns: repeat(1, 1fr);
     }
-`,$f=({searchInput:e})=>{let t=jo(e=>e.moviesSearch.moviesResults),n=jo(e=>e.moviesSearch.loading),r=jo(e=>e.moviesSearch.error),i=Oo();return(0,M.useEffect)(()=>{i(Hf(e))},[i,e]),(0,L.jsxs)(Qf,{children:[n&&(0,L.jsx)(`p`,{style:{color:`white`,textAlign:`center`},children:`Cargando canciones...`}),r&&(0,L.jsx)(`p`,{style:{color:`red`,textAlign:`center`},children:r}),!n&&!r&&!t.length&&(0,L.jsx)(`p`,{style:{color:`aqua`,textAlign:`center`},children:`No se encontraron peliculas.`}),!n&&!r&&t.map(e=>{let{id:t,poster_path:n,title:r}=e;return(0,L.jsx)(Ef,{id:t,movieTitle:r,movieIMG:n},t)})]})},ep=N.div`
+`,$f=({searchInput:e})=>{let t=jo(e=>e.moviesSearch.moviesResults),n=jo(e=>e.moviesSearch.loading),r=jo(e=>e.moviesSearch.error),i=Oo();return(0,M.useEffect)(()=>{i(Hf(e))},[i,e]),(0,L.jsxs)(Qf,{children:[n&&(0,L.jsx)(`p`,{style:{color:`white`,textAlign:`center`},children:`Cargando películas...`}),r&&(0,L.jsx)(`p`,{style:{color:`red`,textAlign:`center`},children:r}),!n&&!r&&!t.length&&(0,L.jsx)(`p`,{style:{color:`aqua`,textAlign:`center`},children:`No se encontraron peliculas.`}),!n&&!r&&t.map(e=>{let{id:t,poster_path:n,title:r}=e;return(0,L.jsx)(Ef,{id:t,movieTitle:r,movieIMG:n},t)})]})},ep=N.div`
     display: flex;
     flex-direction: column;
     
