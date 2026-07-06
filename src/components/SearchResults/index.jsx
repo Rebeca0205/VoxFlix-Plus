@@ -27,7 +27,7 @@ const SearchResults = ({searchInput}) => {
     return(
         <SearchGrid>
             {isLoading && (
-                    <p style={{ color: 'white', textAlign: 'center'}}>Cargando canciones...</p>
+                    <p style={{ color: 'white', textAlign: 'center'}}>Cargando películas...</p>
                 )}
 
                 {error && (
