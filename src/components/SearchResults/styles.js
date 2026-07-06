@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SearchGrid = styled.section`
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: 30px;
 
