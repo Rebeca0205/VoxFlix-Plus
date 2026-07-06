@@ -15,7 +15,7 @@ const Banner = styled.section`
     background-position-y: 25%;
     background-position-x: 78%;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 20px 0;
         background-position-y: 50%;
     }
@@ -35,7 +35,7 @@ const SearchBackground = styled.div`
     margin-right: 40px;
     padding: 50px 20px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         margin-right: 10px;
         padding: 10px 20px;
     }
@@ -65,7 +65,7 @@ const SearchTitle = styled.h2`
 `
 
 const SeeMoviesButton = styled.button`
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 10px;
     }
 `
@@ -74,7 +74,7 @@ const BannerButton = styled.button`
     border-radius: 50px;
     padding: 10px;
     outline: none; 
-    font-size: clamp(0.5rem, 2vw, 1.3rem);
+    font-size: clamp(0.8rem, 2vw, 1.3rem);
     font-weight: 500;
     width: 80%;
 `

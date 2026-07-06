@@ -6,7 +6,7 @@ const SearchGrid = styled.section`
     gap: 30px;
     margin: 30px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         grid-template-columns: repeat(1, 1fr);
     }
 

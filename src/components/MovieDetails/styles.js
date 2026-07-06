@@ -9,7 +9,7 @@ const MovieSection = styled.section`
     padding: 30px;
     margin: 40px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         flex-direction: column;
     }
 `
@@ -17,7 +17,7 @@ const MovieSection = styled.section`
 const MovieIMG = styled.img`
     width: 30%;
     border-radius: 6px;
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 100%;
     }
 `
@@ -26,7 +26,7 @@ const TextDiv = styled.div`
     text-align: center;
     padding: 70px;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         padding: 20px;
     }
 `

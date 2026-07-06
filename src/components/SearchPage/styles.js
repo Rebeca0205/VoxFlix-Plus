@@ -4,7 +4,7 @@ const SearchPageStyles = styled.div`
     display: flex;
     flex-direction: column;
     
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         margin: 0 10px;
     }
 `
@@ -15,7 +15,7 @@ const BackIconButton = styled.i`
     width: 2.5%;
     cursor: pointer;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 5%;
         margin-left: 20px;
         margin-bottom: 10px;

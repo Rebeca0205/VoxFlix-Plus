@@ -25,7 +25,7 @@ const SearchInput = styled.input`
         color: rgba(4, 25, 130, 0.5);
     }
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 40%;
     }
 `
@@ -37,7 +37,7 @@ const SearchButton = styled.button`
     font-weight: 500;
     width: 10%;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 15%;
     }
 `

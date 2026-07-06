@@ -16,7 +16,7 @@ const LogoIMG = styled.img`
     height: 4%;
     cursor: pointer;
 
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 450px) {
         width: 10%;
         height: 10%;
     }

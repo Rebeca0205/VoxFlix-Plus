@@ -43,7 +43,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: ${props => props.theme.fonts.base};
         color: rgb(20, 117, 117);
         outline: none; 
-        font-size: clamp(0.5rem, 2vw, 1.4rem);
+        font-size: clamp(0.8rem, 2vw, 1.3rem);
         font-weight: 500;
         cursor: pointer;
 
