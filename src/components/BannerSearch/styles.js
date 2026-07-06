@@ -15,13 +15,13 @@ const Banner = styled.section`
     background-position-y: 25%;
     background-position-x: 78%;
 
+    @media screen and (max-width: 50em) {
+        padding: 20px 0;
+    }
+
     @media screen and (max-width: 450px) {
         padding: 20px 0;
         background-position-y: 50%;
-    }
-
-    @media screen and (max-width: 50em) {
-        padding: 20px 0;
     }
 `
 
@@ -35,13 +35,13 @@ const SearchBackground = styled.div`
     margin-right: 40px;
     padding: 50px 20px;
 
+    @media screen and (max-width: 50em) {
+        padding: 30px 20px;
+    }
+
     @media screen and (max-width: 450px) {
         margin-right: 10px;
         padding: 10px 20px;
-    }
-
-    @media screen and (max-width: 50em) {
-        padding: 30px 20px;
     }
 `
 
