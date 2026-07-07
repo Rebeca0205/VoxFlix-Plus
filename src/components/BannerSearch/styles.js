@@ -5,7 +5,7 @@ const Banner = styled.section`
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 120px 0;
+    padding: 30px 0;
     width: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), transparent), url(${VoxBanner});
     background-repeat: no-repeat;
