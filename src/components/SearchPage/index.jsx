@@ -14,16 +14,16 @@ const SearchPage = () => {
     return(     
         <SearchPageStyles>
             <BackIconButton onClick={() => navigate("/")}>
-                <BackIMG src={BackIcon}/>
+                <BackIMG src={BackIcon} alt="BackArrowIMG"/>
             </BackIconButton>
-        <SearchBar
-            searchName={inputValue}
-            setSearchName={setInputValue}
-            onSearch={() => setSearchTerm(inputValue)}
-        />
-        <SearchResults
-            searchInput={searchTerm}
-        />
+            <SearchBar
+                searchName={inputValue}
+                setSearchName={setInputValue}
+                onSearch={() => setSearchTerm(inputValue)}
+            />
+            <SearchResults
+                searchInput={searchTerm}
+            />
         </SearchPageStyles>       
     )
 }

@@ -1,6 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1783310296277" clover="3.2.0">
-  <project timestamp="1783310296277" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1783392430007" clover="3.2.0">
+  <project timestamp="1783392430007" name="All files">
+    <metrics statements="142" coveredstatements="119" conditionals="44" coveredconditionals="39" methods="45" coveredmethods="36" elements="231" coveredelements="194" complexity="0" loc="142" ncloc="142" packages="12" files="28" classes="28"/>
+    <package name="assets">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="VoxBanner.png" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\VoxBanner.png">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Voxflix_Logo.png" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\Voxflix_Logo.png">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="arrow-left-back.svg" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\arrow-left-back.svg">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="refresh-ccw.svg" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\refresh-ccw.svg">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="search.svg" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\search.svg">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="user.svg" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\assets\user.svg">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.BannerSearch">
+      <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\BannerSearch\index.jsx">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\BannerSearch\styles.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Carousel">
+      <metrics statements="19" coveredstatements="19" conditionals="19" coveredconditionals="18" methods="7" coveredmethods="7"/>
+      <file name="carouselTitles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Carousel\carouselTitles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Carousel\index.jsx">
+        <metrics statements="16" coveredstatements="16" conditionals="19" coveredconditionals="18" methods="7" coveredmethods="7"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="12" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="13" type="stmt"/>
+        <line num="16" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="13" type="stmt"/>
+        <line num="20" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="29" count="68" type="stmt"/>
+        <line num="30" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="13" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Carousel\styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Header">
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Header\index.jsx">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Header\styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Movie">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Movie\index.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="20" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\Movie\styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.MovieDetails">
+      <metrics statements="21" coveredstatements="19" conditionals="12" coveredconditionals="11" methods="4" coveredmethods="4"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\MovieDetails\index.jsx">
+        <metrics statements="18" coveredstatements="16" conditionals="12" coveredconditionals="11" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\MovieDetails\styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SearchBar">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchBar\index.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="32" type="stmt"/>
+        <line num="10" count="32" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="32" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="32" type="stmt"/>
+        <line num="30" count="23" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchBar\styles.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="32" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SearchPage">
+      <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchPage\index.jsx">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchPage\styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.SearchResults">
+      <metrics statements="14" coveredstatements="14" conditionals="11" coveredconditionals="9" methods="6" coveredmethods="6"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchResults\index.jsx">
+        <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="9" methods="6" coveredmethods="6"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="16" count="11" type="stmt"/>
+        <line num="17" count="20" type="stmt"/>
+        <line num="20" count="11" type="stmt"/>
+        <line num="22" count="11" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="27" count="11" type="stmt"/>
+        <line num="42" count="20" type="stmt"/>
+        <line num="44" count="20" type="stmt"/>
+      </file>
+      <file name="styles.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\components\SearchResults\styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="store.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\redux\store.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux.slices">
+      <metrics statements="36" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="12" coveredmethods="6"/>
+      <file name="carousel.slice.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\redux\slices\carousel.slice.js">
+        <metrics statements="18" coveredstatements="9" conditionals="2" coveredconditionals="1" methods="6" coveredmethods="4"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+      <file name="genresList.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\redux\slices\genresList.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+      </file>
+      <file name="search.slice.js" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\redux\slices\search.slice.js">
+        <metrics statements="17" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="2"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="theme">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.jsx" path="C:\Users\rebed\OneDrive\Documentos\EbacProyects\Voxflix-V2\VoxFlix-Plus\src\theme\index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

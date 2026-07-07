@@ -12,9 +12,7 @@ const BannerSearch = () => {
         <>
             <Banner>
                 <SearchBackground>
-                    <SearchTitle>BIENVENIDO A VOXFLIX! TU SERVICIO DE STREAMING FAVORITO! 
-                        CONFIENOS SU ENTRETENIMIENTO!
-                    </SearchTitle>
+                    <SearchTitle>BIENVENIDO A VOXFLIX! TU SERVICIO DE STREAMING FAVORITO! CONFIENOS SU ENTRETENIMIENTO!</SearchTitle>
                     <SearchSection>
                         <SeeMoviesButton onClick={() => carouselWithMovies.current.scrollIntoView({ behavior: "smooth" })}>
                             VER PELICULAS
