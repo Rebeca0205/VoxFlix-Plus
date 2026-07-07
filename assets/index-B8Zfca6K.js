@@ -120,7 +120,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 120px 0;
+    padding: 30px 0;
     width: 100%;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0), transparent), url(${`/VoxFlix-Plus/assets/VoxBanner-BFlIKLTR.png`});
     background-repeat: no-repeat;
@@ -245,7 +245,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     cursor: pointer
 `,Zf=({searchName:e,setSearchName:t,onSearch:n})=>{let r=Oo();return(0,L.jsxs)(`form`,{onSubmit:e=>{e.preventDefault(),n()},children:[(0,L.jsx)(`h1`,{style:{textAlign:`center`,marginTop:`0`,fontSize:`clamp(1.6rem, 3vw, 3.5rem)`},children:`¡Busca tu Pelicula! Es imposible que no la tengamos`}),(0,L.jsxs)(qf,{children:[(0,L.jsx)(Jf,{type:`text`,id:`searchSection__searchInput`,placeholder:`Escribe lo que sea`,value:e,onChange:e=>t(e.target.value)}),(0,L.jsx)(Yf,{children:`Buscar`}),(0,L.jsx)(Xf,{onClick:()=>{t(``),r(Wf())},children:(0,L.jsx)(`img`,{src:Kf,alt:`RefreshIcon`})})]})]})},Qf=N.section`
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin: 30px;
 
